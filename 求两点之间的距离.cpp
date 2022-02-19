@@ -12,6 +12,6 @@ int main()
 	float dist;
 	scanf("%f%f%f%f",&p1.x,&p1.y,&p2.x,&p2.y);
 	dist = sqrt((p1.x - p2.x)*(p1.x - p2.x) + (p2.y - p2.y)*(p2.y - p2.y));
-	printf("p1(%.2f,%.2f)ä¸p2(%.2f,%.2f)é—´çš„è·ç¦»æ˜¯%.2f\n",p1.x,p1.y,p2.x,p2.y,dist);
+	printf("p1(%.2f,%.2f)Óëp2(%.2f,%.2f)¼äµÄ¾àÀëÊÇ%.2f\n",p1.x,p1.y,p2.x,p2.y,dist);
 	return 0;
 }
